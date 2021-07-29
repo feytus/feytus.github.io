@@ -1,37 +1,122 @@
-## Welcome to GitHub Pages
+# Smogy BOT
 
-You can use the [editor on GitHub](https://github.com/feytus/feytus.github.io/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Smogy BOT is a **usefull** moderation bot totally made in **python** with the module ``discord_py`` and ``discord_slash``.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## **Setup**
 
-### Markdown
+To setup the bot you need to execute ``setup.py`` file and enter the token of your bot. Then a server administrator will have to execute the command ``/config_server``.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## **Normal member commands list**
 
-```markdown
-Syntax highlighted code block
+\
+This is all the commands that you can execute only with the permission to write in a channel. If a command is preceded by a " * " it means that the argument is optional.
 
-# Header 1
-## Header 2
-### Header 3
+### **Help**
 
-- Bulleted
-- List
+This command allows you to obtain more information about an order.
 
-1. Numbered
-2. List
+- `/help {command}`
 
-**Bold** and _Italic_ and `Code` text
+### **Report**
 
-[Link](url) and ![Image](src)
-```
+This command allows you to report a member who has not respected the rules of the server.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- `/report {member} {reason} {*proof}`
 
-### Jekyll Themes
+### **Server info**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/feytus/feytus.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This command allows you to get information about the discord.
 
-### Support or Contact
+- `/serverinfo`
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## **Moderator commands list**
+
+### **Clear**
+
+This command allows you to delete a certain number of messages.
+
+- `/clear {amount}`
+
+### **Tempmute**
+
+This command allows you to temporarily mute a member of the discord.
+
+- `/tempmute {member} {amount: int} {time: (s / m / h / j / mois)} {*reason}`
+
+### **Unmute**
+
+This command allows you to unmutes a member of the discord.
+
+- `/unmute {member} {*reason}`
+
+### **Kick**
+
+This command allows you to kick a member of the discord.
+
+- `/kick {member} {*reason}`
+
+### **Tempban**
+
+This command allows you to temporarily ban a member of the discord.
+
+- `/tempban {member} {amount: int} {time: (s / m / h / j / mois)} {*reason}`
+
+### **Ban**
+
+This command allows you to ban a member of the discord.
+
+- `/ban {member} {*reason}`
+
+### **Unban**
+
+This command allows to un-ban a member of the discord.
+
+- `/unban {member} {*reason}`
+
+⚠️ The option **{member}** should be like this : *name#1234*
+
+### **Banlist**
+
+This command allows you to get the list of members banned from the discord.
+
+- `/banlist`
+
+### **Warn**
+
+This command allows you to warn a member of the discord.
+
+- `/warn {member} {reason}`
+
+### **Sanctions**
+
+This command allows you to see all the sanctions of a discord member.
+
+- `/sanctions {member}`
+
+### **Server config**
+
+This command allows you to configure the bot for the discord server.
+
+- `/server_config`
+
+### **Server information**
+
+This command allows you to get information about the server.
+
+- `/server_info`
+
+### **User information**
+
+This command allows you to get information about za member of the server.
+
+- `/user_info {member}`
+
+## **Other things**
+
+The bot also send a message on member join the discord.
+
+![Image of welcome_message_embed](https://i.imgur.com/GlyVXYZ.png)
+
+All bot actions are logged in a file and in a channel exemple :
+
+![Image of welcome_message_embed](https://i.imgur.com/isEzFh3.png)
