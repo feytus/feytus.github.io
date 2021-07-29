@@ -120,3 +120,5 @@ The bot also send a message on member join the discord.
 All bot actions are logged in a file and in a channel exemple :
 
 ![Image of welcome_message_embed](https://i.imgur.com/isEzFh3.png)
+
+<link rel="icon" href="https://cdn.icon-icons.com/icons2/2613/PNG/512/astronomy_neptune_galaxy_planet_space_system_universe_icon_156870.png">
