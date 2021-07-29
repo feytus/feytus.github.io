@@ -1,6 +1,6 @@
-<div align="center">Hi 👋, I'm Feytus</div>
+# <div align="center">Hi 👋, I'm Feytus</div>
 
-<div align="center">I am a developer with a passion for Scripting and recently started learning Web Development.</div>
+## <div align="center">I am a developer with a passion for Scripting and recently started learning Web Development.</div>
 
 <div align="center"><img src="https://avatars.githubusercontent.com/u/35037869?v=4" width="300"/>
 
