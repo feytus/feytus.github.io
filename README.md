@@ -1,4 +1,4 @@
-# Smogy BOT
+# Neptun BOT
 
 Neptun BOT is a **usefull** moderation bot totally made in **python** with the module ``discord_py`` and ``discord_slash``.
 
