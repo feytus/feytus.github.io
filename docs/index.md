@@ -5,17 +5,15 @@
 
 -----------
 
-<div align="center"><img src="https://avatars.githubusercontent.com/u/35037869?v=4" width="300"/>
+![avatar](https://avatars.githubusercontent.com/u/35037869?v=4)
 
 ## My Projects
 
 The project I'm most active is my Discord Bot developed in Python. 
-<img src="https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png" width="20"/>
-
+![python](https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png)
 
 ### Saturn BOT
 
-<img src="https://cdn.icon-icons.com/icons2/2613/PNG/512/astronomy_neptune_galaxy_planet_space_system_universe_icon_156870.png" width="100"/>
-
+![Saturn bot](https://cdn.icon-icons.com/icons2/2613/PNG/512/astronomy_neptune_galaxy_planet_space_system_universe_icon_156870.png)
 
 #### [Go to website](https://feytus.github.io/Neptun)
