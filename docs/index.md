@@ -5,7 +5,7 @@
 
 -----------
 
-<p><div align="center"><img src="https://avatars.githubusercontent.com/u/35037869?v=4" width="300"/></p>
+<div align="center"><img src="https://avatars.githubusercontent.com/u/35037869?v=4" width="300"/>
 
 ## My Projects
 
