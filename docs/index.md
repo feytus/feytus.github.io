@@ -9,7 +9,7 @@
 
 The project I'm most active is my Discord Bot developed in Python.
 
-### Saturn BOT
+# Saturn BOT
 
 ![Saturn bot](https://cdn.icon-icons.com/icons2/2613/PNG/512/astronomy_neptune_galaxy_planet_space_system_universe_icon_156870.png)
 
