@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Feytus Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#welcome">Welcome</a></li>
+							<li><a href="#what-i-do">What i do</a></li>
+							<li><a href="#projects">My Projects</a></li>
+							<li><a href="#neptun">Neptun BOT</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- welcome -->
+					<section id="welcome" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Hi 👋, I’m Feytus</h1>
+							<p>I am a developer with a passion for Scripting and recently started learning Web Development.</p>
+							<a href="#" class="image"><img src="images/pp.png" alt="" data-position="center center"/></a>
+							<ul class="actions">
+								<li><a href="https://github.com/feytus/" class="button scrolly">my Github</a></li>
+							</ul>	
+						</div>
+					</section>
+				<!-- what i do -->
+					<section id="what-i-do" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What i do</h2>
+							<p>I'm developping in python, javaScript and recently started learning Web Development.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Python, C++</h3>
+									<p></p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>HTML, JavaScript</h3>
+									<p></p>
+								</section>
+							</div>
+						</div>
+					</section>
+				<!-- projects -->
+					<section id="projects" class="wrapper style2 spotlights">
+						<section>
+							<a class="image"><img src="images/neptun.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Neptun</h2>
+									<p>Neptun is a discord moderation bot made in python with discord.py and SlashCommands</p>
+									<ul class="actions">
+										<li><a href="https://github.com/feytus/Neptun" class="button">Neptun Repository on github</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+				<!-- neptun -->
+					<section id="neptun" class="wrapper style2 spotlights">
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h1 id="neptun-bot">Neptun BOT</h1>
+									<p>Neptun BOT is a <strong>usefull</strong> moderation bot totally made in <strong>python</strong> with the module <code>discord_py</code> and <code>discord_slash</code>.</p>
+									<h2 id="-setup-"><strong>Setup</strong></h2>
+									<p>To setup the bot you need to execute <code>setup.py</code> file and enter the token of your bot. Then a server administrator will have to execute the command <code>/config_server</code>.</p>
+									<h2 id="-normal-member-commands-list-"><strong>Normal member commands list</strong></h2>
+									This is all the commands that you can execute only with the permission to write in a channel. If a command is preceded by a &quot; * &quot; it means that the argument is optional.</p>
+									<h3 id="-help-"><strong>Help</strong></h3>
+									<p>This command allows you to obtain more information about an order.</p>
+									<ul>
+									<li><code>/help {command}</code></li>
+									</ul>
+									<h3 id="-report-"><strong>Report</strong></h3>
+									<p>This command allows you to report a member who has not respected the rules of the server.</p>
+									<ul>
+									<li><code>/report {member} {reason} {*proof}</code></li>
+									</ul>
+									<h3 id="-server-info-"><strong>Server info</strong></h3>
+									<p>This command allows you to get information about the discord.</p>
+									<ul>
+									<li><code>/serverinfo</code></li>
+									</ul>
+									<h2 id="-moderator-commands-list-"><strong>Moderator commands list</strong></h2>
+									<h3 id="-clear-"><strong>Clear</strong></h3>
+									<p>This command allows you to delete a certain number of messages.</p>
+									<ul>
+									<li><code>/clear {amount}</code></li>
+									</ul>
+									<h3 id="-tempmute-"><strong>Tempmute</strong></h3>
+									<p>This command allows you to temporarily mute a member of the discord.</p>
+									<ul>
+									<li><code>/tempmute {member} {amount: int} {time: (s / m / h / j / mois)} {*reason}</code></li>
+									</ul>
+									<h3 id="-unmute-"><strong>Unmute</strong></h3>
+									<p>This command allows you to unmutes a member of the discord.</p>
+									<ul>
+									<li><code>/unmute {member} {*reason}</code></li>
+									</ul>
+									<h3 id="-kick-"><strong>Kick</strong></h3>
+									<p>This command allows you to kick a member of the discord.</p>
+									<ul>
+									<li><code>/kick {member} {*reason}</code></li>
+									</ul>
+									<h3 id="-tempban-"><strong>Tempban</strong></h3>
+									<p>This command allows you to temporarily ban a member of the discord.</p>
+									<ul>
+									<li><code>/tempban {member} {amount: int} {time: (s / m / h / j / mois)} {*reason}</code></li>
+									</ul>
+									<h3 id="-ban-"><strong>Ban</strong></h3>
+									<p>This command allows you to ban a member of the discord.</p>
+									<ul>
+									<li><code>/ban {member} {*reason}</code></li>
+									</ul>
+									<h3 id="-unban-"><strong>Unban</strong></h3>
+									<p>This command allows to un-ban a member of the discord.</p>
+									<ul>
+									<li><code>/unban {member} {*reason}</code></li>
+									</ul>
+									<p>⚠️ The option <strong>{member}</strong> should be like this : <em>name#1234</em></p>
+									<h3 id="-banlist-"><strong>Banlist</strong></h3>
+									<p>This command allows you to get the list of members banned from the discord.</p>
+									<ul>
+									<li><code>/banlist</code></li>
+									</ul>
+									<h3 id="-warn-"><strong>Warn</strong></h3>
+									<p>This command allows you to warn a member of the discord.</p>
+									<ul>
+									<li><code>/warn {member} {reason}</code></li>
+									</ul>
+									<h3 id="-sanctions-"><strong>Sanctions</strong></h3>
+									<p>This command allows you to see all the sanctions of a discord member.</p>
+									<ul>
+									<li><code>/sanctions {member}</code></li>
+									</ul>
+									<h3 id="-server-config-"><strong>Server config</strong></h3>
+									<p>This command allows you to configure the bot for the discord server.</p>
+									<ul>
+									<li><code>/server_config</code></li>
+									</ul>
+									<h3 id="-server-information-"><strong>Server information</strong></h3>
+									<p>This command allows you to get information about the server.</p>
+									<ul>
+									<li><code>/server_info</code></li>
+									</ul>
+									<h3 id="-user-information-"><strong>User information</strong></h3>
+									<p>This command allows you to get information about za member of the server.</p>
+									<ul>
+									<li><code>/user_info {member}</code></li>
+									</ul>
+									<h2 id="-other-things-"><strong>Other things</strong></h2>
+									<p>The bot also send a message on member join the discord.</p>
+									<p><img src="https://i.imgur.com/GlyVXYZ.png" alt="Image of welcome_message_embed"></p>
+									<p>All bot actions are logged in a file and in a channel exemple :</p>
+									<p><img src="https://i.imgur.com/isEzFh3.png" alt="Image of welcome_message_embed"></p>
+								</div>
+							</div>
+						</section>
+					</section>							
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="icons">
+						<h3>Social</h3>
+						<li><a href="https://twitter.com/feytusinho" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/feytus/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+					<li>
+						<h4>Email</h4>
+						<a>feytusinho@gmail.com</a>
+					</li>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
